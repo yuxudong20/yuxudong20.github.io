@@ -34,7 +34,7 @@
                 <a href="https://github.com/yuxudong20">Github</a>
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
+            <td style="padding:2.5%;width:30%;max-width:30%">
               <a href="images/XudongYu.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/XudongYu.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
@@ -50,7 +50,37 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="cgi_stop()" onmouseover="cgi_start()">
+          <tr onmouseout="hss_stop()" onmouseover="hss_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hss_image'>
+                  <img src='images/hss.jpg' width="160"></div>
+                <img src='images/hss.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function icus_start() {
+                  document.getElementById('hss_image').style.opacity = "1";
+                }
+
+                function icus_stop() {
+                  document.getElementById('hss_image').style.opacity = "0";
+                }
+                icus_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Hindsight Self-Supervision for Offline Reinforcement Learning.</papertitle>
+              <br>
+			  <strong>Xudong Yu</strong>, Chenjia Bai, Changhong Wang, Zhen Wang
+              <br>
+              <em>Under Review</em> 
+              <br>
+				<!--a href="https://ieeexplore.ieee.org/abstract/document/9641425">paper</a>
+			  <p></p>
+              <p>We propose a multi-sensor fusion localization method for UGVs under adverse conditions.</p-->
+            </td>
+          </tr>
+		  <tr onmouseout="cgi_stop()" onmouseover="cgi_start()">
             <!td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='cgi_image'>
@@ -76,7 +106,7 @@
 			  <br>
               <em>Under review</em>, 2022 (* Equal Contribution)
               <br>
-              <!--a href="https://yifanjiang.net/icusConv.html">project page</a-->-
+              <!--a href="https://yifanjiang.net/icusConv.html">project page</a-->
               <p></p>
               <p>
               We consider offline reinforcement learning using goal-conditioned self-imitation with curriculum leanring. 
@@ -103,9 +133,7 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://waymo.com/research/block-nerf/">
-                <papertitle>Multi-Sensor Fusion Localization with Factor Graphs for UGVs Under Adverse Conditions</papertitle>
-              </a>
+              <papertitle>Multi-Sensor Fusion Localization with Factor Graphs for UGVs Under Adverse Conditions</papertitle>
               <br>
 			  <strong>Xudong Yu</strong>, Changhong Wang
               <br>
