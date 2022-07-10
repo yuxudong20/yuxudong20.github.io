@@ -1,0 +1,3 @@
+Xudong Yu received the B.E. and M.E. degrees from the Harbin Institute of Technology, Harbin, China, in 2018 and 2020, respectively. He is currently pursuing the Ph.D. degree with the Space control and Inertial Technology Research Center.
+
+His main research interest includes reinforcement learning and unmanned systems.
